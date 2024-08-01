@@ -11209,6 +11209,27 @@
     "remediation": true
    }
   },
+  "crowdsecurity/basic-anomaly-detection": {
+   "path": "scenarios/crowdsecurity/basic-anomaly-detection.yaml",
+   "version": "0.1",
+   "versions": {
+    "0.1": {
+     "digest": "494c9f2a0155ccdb46264dffa81f89205555cc9c7c95706d76c77b3113994142",
+     "deprecated": false
+    }
+   },
+   "long_description": "IyMgYmFzaWMtYW5vbWFseS1kZXRlY3Rpb24KClV0aWxpemVzIGEgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXIgKE9OTlggTW9kZWwpIHRvIGRldGVjdCBtYWxpY2lvdXMgYWN0aXZpdHkgaW4gaHR0cCBsb2dzLiA=",
+   "content": "dHlwZTogdHJpZ2dlcgojZGVidWc6IHRydWUKbmFtZTogY3Jvd2RzZWN1cml0eS9iYXNpYy1hbm9tYWx5LWRldGVjdGlvbgpkZXNjcmlwdGlvbjogIkRldGVjdCBNYWxpY2lvdXMgQWNpdGl2eSBpbiBIVFRQIExvZ3MgdmlhIE1hY2hpbmUgTGVhcm5pbmciCmZpbHRlcjogfAogICAgU2VlbXNNYWxpY2lvdXMoZXZ0LlBhcnNlZC52ZXJiLCBldnQuUGFyc2VkLmh0dHBfcGF0aCkKZGF0YTogCiAgLSBzb3VyY2VfdXJsOiBodHRwczovL2h1Yi1kYXRhLmNyb3dkc2VjLm5ldC9tbC9icGVfdG9rZW5pemVyLmpzb24KICAgIGRlc3RfZmlsZTogdG9rZW5pemVyLmpzb24KICAtIHNvdXJjZV91cmw6IGh0dHBzOi8vaHViLWRhdGEuY3Jvd2RzZWMubmV0L21sL2Zhc3R0ZXh0X21vZGVsLm1vZGVsCiAgICBkZXN0X2ZpbGU6IGZhc3R0ZXh0X21vZGVsLm1vZGVsCiAgLSBzb3VyY2VfdXJsOiBodHRwczovL2h1Yi1kYXRhLmNyb3dkc2VjLm5ldC9tbC9yb2JlcnRhLm1vZGVsCiAgICBkZXN0X2ZpbGU6IHJvYmVydGEub25ueApibGFja2hvbGU6IDFtCmdyb3VwYnk6ICJldnQuTWV0YS5zb3VyY2VfaXAiCmxhYmVsczoKICB0eXBlOiBleHBsb2l0CiAgcmVtZWRpYXRpb246IHRydWUKICBzcG9vZmFibGU6IDAKICBjb25maWRlbmNlOiAwIAogIGJlaGF2aW9yOiAiaHR0cDpleHBsb2l0Ig==",
+   "description": "Detect Malicious Acitivy in HTTP Logs via Machine Learning",
+   "author": "crowdsecurity",
+   "labels": {
+    "behavior": "http:exploit",
+    "confidence": 0,
+    "remediation": true,
+    "spoofable": 0,
+    "type": "exploit"
+   }
+  },
   "crowdsecurity/configserver-lfd-bf": {
    "path": "scenarios/crowdsecurity/configserver-lfd-bf.yaml",
    "version": "0.1",
