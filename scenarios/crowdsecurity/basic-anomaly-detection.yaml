@@ -1,0 +1,21 @@
+type: trigger
+#debug: true
+name: crowdsecurity/basic-anomaly-detection
+description: "Detect Malicious Acitivy in HTTP Logs via Machine Learning"
+filter: |
+    SeemsMalicious(evt.Parsed.verb, evt.Parsed.http_path)
+data: 
+  - source_url: https://hub-data.crowdsec.net/ml/bpe_tokenizer.json
+    dest_file: tokenizer.json
+  - source_url: https://hub-data.crowdsec.net/ml/fasttext_model.model
+    dest_file: fasttext_model.model
+  - source_url: https://hub-data.crowdsec.net/ml/roberta.model
+    dest_file: roberta.onnx
+blackhole: 1m
+groupby: "evt.Meta.source_ip"
+labels:
+  type: exploit
+  remediation: true
+  spoofable: 0
+  confidence: 0 
+  behavior: "http:exploit"
